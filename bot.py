@@ -1,11 +1,1 @@
-import telebot
-import os
-
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-bot = telebot.TeleBot(BOT_TOKEN)
-
-@bot.message_handler(commands=['start', 'help'])
-def send_welcome(message):
-    bot.reply_to(message, "👋 Bienvenue sur le bot officiel d’AVLAC !\n\nNous aidons pour :\n- 🎓 Opportunités d’études\n- ✈️ Assistance Visa (AVLAC Visa Consulting)\n- 🛫 Programmes internationaux (Alabuga Start)\n- 📄 Aide pour documents administratifs et visa.\n\nContact : +243972326509\nMail : aviationlimitlessacademy@gmail.com")
-
-bot.polling()
+https://scontent.fgom1-1.fna.fbcdn.net/m1/v/t0.50684-6/An8N-Sxqajk905ldUEk5bO26iY_YYZcqMUgFGVMBqhLuGO3umJOjw-NgdFSGZ05PAS3WMH1bXMnOWtkz-djsiOJB3tqeuVvpl-CvZAR_YeD3FzW-Bu5TTHg5OdzAhgc/La+Trag%C3%A9die+des+Si%C3%A8cles+.pdf?_nc_oc=Adl8z2312NxqTh-89AWpiPgXoCvyccPrJycTeFc1hK7J1otLyVHkLhtLJGRh-4W70_s&ccb=10-5&oh=00_AfYaGOIBWJ3Q4mFu7DFnyCEMGaog2Tl1HDtxzUf67ovb6Q&oe=69005B34&_nc_sid=de6fe6
